@@ -1,0 +1,15 @@
+# Versiones fijadas a las que ya probamos funcionando juntas (Python 3.11).
+# --- API ---
+fastapi==0.141.1
+uvicorn==0.52.4
+# --- Config ---
+pydantic-settings==2.15.0
+python-dotenv==1.2.3
+# --- Seguridad (JWT HS256) ---
+PyJWT==2.14.0
+# --- Reconocimiento facial ---
+# framework: insightface (MIT) | detector: SCRFD | modelo: AuraFace-v1 (Apache 2.0)
+insightface==1.0.1
+onnxruntime==1.27.0
+opencv-python==5.0.0.93
+numpy==2.4.6
